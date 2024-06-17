@@ -8,7 +8,9 @@ import {COLORS,icons,images,SIZES} from '../constants';
 const Home =()=>{
     return (
         <View>
-            <Text>Home</Text>
+            <Text style = {{fontSize: 30, fontWeight: 'bold', color: 'blue'}}>
+                   Home </Text>
+            <Text>User Interface</Text>
         </View>
     )
 }
