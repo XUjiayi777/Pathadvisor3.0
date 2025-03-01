@@ -3,8 +3,13 @@ import * as React from "react";
 
 export default function Layout() {
   return (
-    <Stack initialRouteName="Home">
-      <Stack.Screen name="index" />
+    <Stack initialRouteName="index">
+      <Stack.Screen
+        name="index"
+        options={{
+          headerTitle: "Home",
+        }}
+      />
       <Stack.Screen
         name="(authentication)/create_account"
         options={{
