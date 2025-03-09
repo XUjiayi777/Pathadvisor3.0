@@ -11,6 +11,9 @@
     "name": "pathadvisor",
     "displayName": "iLocate",
     "slug": "pathadvisor",
-    "newArchEnabled": true
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.anonymous.pathadvisor"
+    }
   }
 }
